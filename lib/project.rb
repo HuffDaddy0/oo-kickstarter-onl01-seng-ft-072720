@@ -3,8 +3,8 @@ class Projects
   attr_reader :title
 
   def initialize(title)
-    @title = title
-    @backers = []
+    self.title = title
+    self.backers = []
   end
 
 # def add_backer(backer)
